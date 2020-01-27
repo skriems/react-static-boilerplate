@@ -1,0 +1,16 @@
+{
+  "processors": [
+  ],
+  "extends": [
+    "stylelint-config-recommended",
+  ],
+  "rules": {
+    "comment-empty-line-before": null,
+    "value-list-max-empty-lines": null,
+    "declaration-empty-line-before": null,
+    "declaration-colon-newline-after": null,
+    "value-list-comma-newline-after": null,
+    "no-descending-specificity": null
+  },
+  "syntax": "scss"
+}

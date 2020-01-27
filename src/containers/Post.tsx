@@ -1,10 +1,10 @@
-import React from 'react'
-import { useRouteData } from 'react-static'
-import { Link } from '@reach/router'
-import { Post } from '../../types'
+import React from 'react';
+import { useRouteData } from 'react-static';
+import { Link } from '@reach/router';
+import { Post } from '../../types';
 
 export default () => {
-  const { post }: { post: Post } = useRouteData()
+  const { post }: { post: Post } = useRouteData();
   return (
     <div>
       <Link to="/blog/">{'<'} Back</Link>
@@ -12,5 +12,5 @@ export default () => {
       <h3>{post.title}</h3>
       <p>{post.body}</p>
     </div>
-  )
-}
+  );
+};
