@@ -10,7 +10,8 @@
     "coverage": "jest --coverage",
     "lint": "eslint 'src/**/*'",
     "lint:css": "stylelint 'src/**/*.tsx'",
-    "serve": "serve dist -p 3000 -s"
+    "serve": "serve dist -p 3000 -s",
+    "test": "jest --watch"
   },
   "dependencies": {
     "@reach/router": "^1.2.1",
